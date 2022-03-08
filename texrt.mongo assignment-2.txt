@@ -1,0 +1,2291 @@
+> db
+movies
+> db.movie.find({}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> "it"
+it
+> it
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1d"),
+        "id" : 21,
+        "movie_name " : "Woo",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1990,
+        "budget" : "$7.81"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1e"),
+        "id" : 22,
+        "movie_name " : "Blackout (Contraband)",
+        "movie_genre" : "Adventure|Romance",
+        "production_years" : 2011,
+        "budget" : "$2.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1f"),
+        "id" : 23,
+        "movie_name " : "Deficit (Déficit)",
+        "movie_genre" : "Drama",
+        "production_years" : 2008,
+        "budget" : "$6.49"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d20"),
+        "id" : 24,
+        "movie_name " : "Indian in the Cupboard, The",
+        "movie_genre" : "Adventure|Children|Fantasy",
+        "production_years" : 2005,
+        "budget" : "$0.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d21"),
+        "id" : 25,
+        "movie_name " : "About Time",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 2001,
+        "budget" : "$2.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d22"),
+        "id" : 26,
+        "movie_name " : "36 Crazy Fists (San shi liu mi xing quan)",
+        "movie_genre" : "Action|Comedy|Drama",
+        "production_years" : 2005,
+        "budget" : "$3.33"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d23"),
+        "id" : 27,
+        "movie_name " : "Kaena: The Prophecy (Kaena: La prophétie)",
+        "movie_genre" : "Action|Adventure|Animation|Children|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$5.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d24"),
+        "id" : 28,
+        "movie_name " : "Progression",
+        "movie_genre" : "Adventure|Documentary",
+        "production_years" : 2000,
+        "budget" : "$8.37"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d25"),
+        "id" : 29,
+        "movie_name " : "Bittersweet Life, A (Dalkomhan insaeng)",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2012,
+        "budget" : "$9.69"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d26"),
+        "id" : 30,
+        "movie_name " : "G.O.R.A.",
+        "movie_genre" : "Adventure|Comedy|Sci-Fi",
+        "production_years" : 1998,
+        "budget" : "$7.25"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d27"),
+        "id" : 31,
+        "movie_name " : "How to Stuff a Wild Bikini",
+        "movie_genre" : "Comedy",
+        "production_years" : 1991,
+        "budget" : "$6.12"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d28"),
+        "id" : 32,
+        "movie_name " : "BookWars",
+        "movie_genre" : "Comedy|Crime|Documentary",
+        "production_years" : 1998,
+        "budget" : "$9.21"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d29"),
+        "id" : 33,
+        "movie_name " : "Tadpole",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 2010,
+        "budget" : "$1.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2a"),
+        "id" : 34,
+        "movie_name " : "Mr. Pip",
+        "movie_genre" : "Drama|War",
+        "production_years" : 2006,
+        "budget" : "$4.83"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2b"),
+        "id" : 35,
+        "movie_name " : "Battle for Haditha",
+        "movie_genre" : "War",
+        "production_years" : 1984,
+        "budget" : "$8.23"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2c"),
+        "id" : 36,
+        "movie_name " : "Last Exorcism Part II, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_years" : 2003,
+        "budget" : "$2.05"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2d"),
+        "id" : 37,
+        "movie_name " : "Griff the Invisible",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1987,
+        "budget" : "$1.39"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2e"),
+        "id" : 38,
+        "movie_name " : "Flu",
+        "movie_genre" : "Action|Drama|Sci-Fi",
+        "production_years" : 1985,
+        "budget" : "$5.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2f"),
+        "id" : 39,
+        "movie_name " : "Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2)",
+        "movie_genre" : "Action|Comedy|Sci-Fi",
+        "production_years" : 2011,
+        "budget" : "$8.19"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d30"),
+        "id" : 40,
+        "movie_name " : "I Am Number Four",
+        "movie_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_years" : 2002,
+        "budget" : "$1.27"
+}
+Type "it" for more
+> db.movie.findOne({}).pretty()
+uncaught exception: TypeError: db.movie.findOne(...).pretty is not a function :
+@(shell):1:1
+> db.movie.findOne({})
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+> db.movie.find({"movie_name" : {$eq : "movie_nmae}})
+uncaught exception: SyntaxError: "" literal not terminated before end of script :
+@(shell):1:51
+> db.movie.find({"movie_name" : {$eq : "movie_nmae"}})
+> db.movie.find({"movie_name" : {$eq : "Hail the Conquering Hero"}})
+> db.movie.find({"budget" : {$glt : "$10"}})
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "unknown operator: $glt",
+        "code" : 2,
+        "codeName" : "BadValue"
+}
+> db.movie.find({"budget" : {$gte : "$10"}}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1d"),
+        "id" : 21,
+        "movie_name " : "Woo",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1990,
+        "budget" : "$7.81"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1e"),
+        "id" : 22,
+        "movie_name " : "Blackout (Contraband)",
+        "movie_genre" : "Adventure|Romance",
+        "production_years" : 2011,
+        "budget" : "$2.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1f"),
+        "id" : 23,
+        "movie_name " : "Deficit (Déficit)",
+        "movie_genre" : "Drama",
+        "production_years" : 2008,
+        "budget" : "$6.49"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d21"),
+        "id" : 25,
+        "movie_name " : "About Time",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 2001,
+        "budget" : "$2.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d22"),
+        "id" : 26,
+        "movie_name " : "36 Crazy Fists (San shi liu mi xing quan)",
+        "movie_genre" : "Action|Comedy|Drama",
+        "production_years" : 2005,
+        "budget" : "$3.33"
+}
+Type "it" for more
+> db.movie.find({"budget" : {$lte : "$10"}}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d20"),
+        "id" : 24,
+        "movie_name " : "Indian in the Cupboard, The",
+        "movie_genre" : "Adventure|Children|Fantasy",
+        "production_years" : 2005,
+        "budget" : "$0.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d29"),
+        "id" : 33,
+        "movie_name " : "Tadpole",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 2010,
+        "budget" : "$1.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2d"),
+        "id" : 37,
+        "movie_name " : "Griff the Invisible",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1987,
+        "budget" : "$1.39"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d30"),
+        "id" : 40,
+        "movie_name " : "I Am Number Four",
+        "movie_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_years" : 2002,
+        "budget" : "$1.27"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d33"),
+        "id" : 43,
+        "movie_name " : "Secret Agent, The",
+        "movie_genre" : "Drama",
+        "production_years" : 1998,
+        "budget" : "$0.88"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d34"),
+        "id" : 44,
+        "movie_name " : "After Fall, Winter",
+        "movie_genre" : "Drama",
+        "production_years" : 2004,
+        "budget" : "$0.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d36"),
+        "id" : 46,
+        "movie_name " : "Harold and Maude",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 2001,
+        "budget" : "$1.11"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d38"),
+        "id" : 48,
+        "movie_name " : "Nomi Song, The",
+        "movie_genre" : "Documentary|Musical",
+        "production_years" : 1989,
+        "budget" : "$0.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d3b"),
+        "id" : 51,
+        "movie_name " : "Apollo Zero",
+        "movie_genre" : "Documentary",
+        "production_years" : 2008,
+        "budget" : "$0.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d41"),
+        "id" : 57,
+        "movie_name " : "Professional Gun, A (Mercenary, The) (Mercenario, Il)",
+        "movie_genre" : "Comedy|Western",
+        "production_years" : 2000,
+        "budget" : "$0.04"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d46"),
+        "id" : 62,
+        "movie_name " : "Filthy Gorgeous: The Bob Guccione Story",
+        "movie_genre" : "Documentary",
+        "production_years" : 1993,
+        "budget" : "$1.21"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d4a"),
+        "id" : 66,
+        "movie_name " : "Best Foot Forward",
+        "movie_genre" : "Comedy|Musical",
+        "production_years" : 1995,
+        "budget" : "$1.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d4d"),
+        "id" : 69,
+        "movie_name " : "Mabel's Married Life",
+        "movie_genre" : "Comedy",
+        "production_years" : 2011,
+        "budget" : "$1.28"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d53"),
+        "id" : 75,
+        "movie_name " : "Affair to Remember, An",
+        "movie_genre" : "Drama|Romance",
+        "production_years" : 2005,
+        "budget" : "$0.71"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d61"),
+        "id" : 89,
+        "movie_name " : "Sorceress",
+        "movie_genre" : "Action|Adventure|Fantasy",
+        "production_years" : 1995,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> db.movie.find({$and},[{"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}])
+uncaught exception: ReferenceError: $and is not defined :
+@(shell):1:16
+> db.movie.find({$and} : {"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}])
+uncaught exception: SyntaxError: missing ) after argument list :
+@(shell):1:21
+> db.movie.find({$and : {"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}]})
+uncaught exception: SyntaxError: expected property name, got '{' :
+@(shell):1:57
+> db.movie.find({$and : [{"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}]})
+{ "_id" : ObjectId("6227a3a515289a4815352d0b"), "id" : 3, "movie_name " : "The Little Kidnappers", "movie_genre" : "Drama|Romance|War", "production_years" : 2010, "budget" : "$2.09" }
+{ "_id" : ObjectId("6227a3a515289a4815352d0d"), "id" : 5, "movie_name " : "High School Musical 2", "movie_genre" : "Comedy|Drama|Musical|Romance", "production_years" : 2001, "budget" : "$8.18" }
+{ "_id" : ObjectId("6227a3a515289a4815352d10"), "id" : 8, "movie_name " : "The Castle of Fu Manchu", "movie_genre" : "Action|Crime|Horror", "production_years" : 2005, "budget" : "$9.45" }
+{ "_id" : ObjectId("6227a3a515289a4815352d11"), "id" : 9, "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)", "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller", "production_years" : 2008, "budget" : "$8.93" }
+{ "_id" : ObjectId("6227a3a515289a4815352d12"), "id" : 10, "movie_name " : "Bikini Beach", "movie_genre" : "Comedy", "production_years" : 2010, "budget" : "$9.07" }
+{ "_id" : ObjectId("6227a3a515289a4815352d14"), "id" : 12, "movie_name " : "Whitey: United States of America v. James J. Bulger", "movie_genre" : "Crime|Documentary", "production_years" : 2005, "budget" : "$3.38" }
+{ "_id" : ObjectId("6227a3a515289a4815352d15"), "id" : 13, "movie_name " : "Get Rich or Die Tryin'", "movie_genre" : "Action|Crime|Drama", "production_years" : 2002, "budget" : "$2.86" }
+{ "_id" : ObjectId("6227a3a515289a4815352d18"), "id" : 16, "movie_name " : "Rambo: First Blood Part II", "movie_genre" : "Action|Adventure|Thriller", "production_years" : 2006, "budget" : "$9.55" }
+{ "_id" : ObjectId("6227a3a515289a4815352d1e"), "id" : 22, "movie_name " : "Blackout (Contraband)", "movie_genre" : "Adventure|Romance", "production_years" : 2011, "budget" : "$2.30" }
+{ "_id" : ObjectId("6227a3a515289a4815352d1f"), "id" : 23, "movie_name " : "Deficit (Déficit)", "movie_genre" : "Drama", "production_years" : 2008, "budget" : "$6.49" }
+{ "_id" : ObjectId("6227a3a515289a4815352d21"), "id" : 25, "movie_name " : "About Time", "movie_genre" : "Drama|Fantasy|Romance", "production_years" : 2001, "budget" : "$2.73" }
+{ "_id" : ObjectId("6227a3a515289a4815352d22"), "id" : 26, "movie_name " : "36 Crazy Fists (San shi liu mi xing quan)", "movie_genre" : "Action|Comedy|Drama", "production_years" : 2005, "budget" : "$3.33" }
+{ "_id" : ObjectId("6227a3a515289a4815352d23"), "id" : 27, "movie_name " : "Kaena: The Prophecy (Kaena: La prophétie)", "movie_genre" : "Action|Adventure|Animation|Children|Sci-Fi", "production_years" : 2007, "budget" : "$5.30" }
+{ "_id" : ObjectId("6227a3a515289a4815352d25"), "id" : 29, "movie_name " : "Bittersweet Life, A (Dalkomhan insaeng)", "movie_genre" : "Action|Crime|Drama", "production_years" : 2012, "budget" : "$9.69" }
+{ "_id" : ObjectId("6227a3a515289a4815352d2a"), "id" : 34, "movie_name " : "Mr. Pip", "movie_genre" : "Drama|War", "production_years" : 2006, "budget" : "$4.83" }
+{ "_id" : ObjectId("6227a3a515289a4815352d2c"), "id" : 36, "movie_name " : "Last Exorcism Part II, The", "movie_genre" : "Horror|Thriller", "production_years" : 2003, "budget" : "$2.05" }
+{ "_id" : ObjectId("6227a3a515289a4815352d2f"), "id" : 39, "movie_name " : "Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2)", "movie_genre" : "Action|Comedy|Sci-Fi", "production_years" : 2011, "budget" : "$8.19" }
+{ "_id" : ObjectId("6227a3a515289a4815352d31"), "id" : 41, "movie_name " : "Low Down, The", "movie_genre" : "Drama", "production_years" : 2002, "budget" : "$5.37" }
+{ "_id" : ObjectId("6227a3a515289a4815352d35"), "id" : 45, "movie_name " : "Waiting for Guffman", "movie_genre" : "Comedy", "production_years" : 2010, "budget" : "$6.94" }
+{ "_id" : ObjectId("6227a3a515289a4815352d37"), "id" : 47, "movie_name " : "Helen", "movie_genre" : "Drama", "production_years" : 2004, "budget" : "$8.07" }
+Type "it" for more
+> db.movie.find({$and : [{"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}]}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1e"),
+        "id" : 22,
+        "movie_name " : "Blackout (Contraband)",
+        "movie_genre" : "Adventure|Romance",
+        "production_years" : 2011,
+        "budget" : "$2.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1f"),
+        "id" : 23,
+        "movie_name " : "Deficit (Déficit)",
+        "movie_genre" : "Drama",
+        "production_years" : 2008,
+        "budget" : "$6.49"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d21"),
+        "id" : 25,
+        "movie_name " : "About Time",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 2001,
+        "budget" : "$2.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d22"),
+        "id" : 26,
+        "movie_name " : "36 Crazy Fists (San shi liu mi xing quan)",
+        "movie_genre" : "Action|Comedy|Drama",
+        "production_years" : 2005,
+        "budget" : "$3.33"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d23"),
+        "id" : 27,
+        "movie_name " : "Kaena: The Prophecy (Kaena: La prophétie)",
+        "movie_genre" : "Action|Adventure|Animation|Children|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$5.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d25"),
+        "id" : 29,
+        "movie_name " : "Bittersweet Life, A (Dalkomhan insaeng)",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2012,
+        "budget" : "$9.69"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2a"),
+        "id" : 34,
+        "movie_name " : "Mr. Pip",
+        "movie_genre" : "Drama|War",
+        "production_years" : 2006,
+        "budget" : "$4.83"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2c"),
+        "id" : 36,
+        "movie_name " : "Last Exorcism Part II, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_years" : 2003,
+        "budget" : "$2.05"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2f"),
+        "id" : 39,
+        "movie_name " : "Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2)",
+        "movie_genre" : "Action|Comedy|Sci-Fi",
+        "production_years" : 2011,
+        "budget" : "$8.19"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d31"),
+        "id" : 41,
+        "movie_name " : "Low Down, The",
+        "movie_genre" : "Drama",
+        "production_years" : 2002,
+        "budget" : "$5.37"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d35"),
+        "id" : 45,
+        "movie_name " : "Waiting for Guffman",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$6.94"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d37"),
+        "id" : 47,
+        "movie_name " : "Helen",
+        "movie_genre" : "Drama",
+        "production_years" : 2004,
+        "budget" : "$8.07"
+}
+Type "it" for more
+> db.movie.find({$or : [{"production_years": {$gt : 2000}},{"budget" : {$gt : "$120"}}]}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1d"),
+        "id" : 21,
+        "movie_name " : "Woo",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1990,
+        "budget" : "$7.81"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1e"),
+        "id" : 22,
+        "movie_name " : "Blackout (Contraband)",
+        "movie_genre" : "Adventure|Romance",
+        "production_years" : 2011,
+        "budget" : "$2.30"
+}
+Type "it" for more
+> db.movie.find({$or : [{"production_years : {$gt :2000}},{"budget" : {$gt :"$150"}}]}).pretty()
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:58
+> db.movie.find({$or : [{"production_years : {$gt :2000}},{"budget" : {$gt :"$100"}}]}).pretty()
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:58
+> db.movie.find({$or : [{"production_years : {$gt :2000}},{"budget" : {$gt :"$100"}},{"id" : {$gt : 22}}]}).pretty()
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:58
+> db.movie.find({$or : [{"production_years" : {$gt :2000}},{"budget" : {$gt :"$100"}},{"id" : {$gt : 22}}]}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1d"),
+        "id" : 21,
+        "movie_name " : "Woo",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1990,
+        "budget" : "$7.81"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1e"),
+        "id" : 22,
+        "movie_name " : "Blackout (Contraband)",
+        "movie_genre" : "Adventure|Romance",
+        "production_years" : 2011,
+        "budget" : "$2.30"
+}
+Type "it" for more
+> db.movie.find({production_years : {$not :{$eq : 2000}}}, {budget :{$not : {$eq : "50"}}}).pretty
+function() {
+    this._prettyShell = true;
+    return this;
+}
+> db.movie.find({production_years : {$not :{$eq : 2000}}}, {budget :{$not : {$eq : "50"}}}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "Expression $eq takes exactly 2 arguments. 1 were passed in.",
+        "code" : 16020,
+        "codeName" : "Location16020"
+}
+> db.movie.find([{production_years : {$not :{$eq : 2000}}}, {budget :{$not : {$eq : "50"}}}]).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "Expected field filterto be of type object",
+        "code" : 14,
+        "codeName" : "TypeMismatch"
+}
+> db.movie.find({$and : [{production_years : {$not :{$eq : 2000}}}, {budget :{$not : {$eq : "50"}}}]}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> db.movie.find({$nor : [{"production_years : {$gt :2000}},{"budget" : {$gt :"$150"}}]}).pretty()
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:59
+> db.movie.find({$nor : [{production_years : {$gt :2000}},{"budget" : {$gt :"$150"}}]}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d2d"),
+        "id" : 37,
+        "movie_name " : "Griff the Invisible",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1987,
+        "budget" : "$1.39"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d33"),
+        "id" : 43,
+        "movie_name " : "Secret Agent, The",
+        "movie_genre" : "Drama",
+        "production_years" : 1998,
+        "budget" : "$0.88"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d38"),
+        "id" : 48,
+        "movie_name " : "Nomi Song, The",
+        "movie_genre" : "Documentary|Musical",
+        "production_years" : 1989,
+        "budget" : "$0.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d41"),
+        "id" : 57,
+        "movie_name " : "Professional Gun, A (Mercenary, The) (Mercenario, Il)",
+        "movie_genre" : "Comedy|Western",
+        "production_years" : 2000,
+        "budget" : "$0.04"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d46"),
+        "id" : 62,
+        "movie_name " : "Filthy Gorgeous: The Bob Guccione Story",
+        "movie_genre" : "Documentary",
+        "production_years" : 1993,
+        "budget" : "$1.21"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d4a"),
+        "id" : 66,
+        "movie_name " : "Best Foot Forward",
+        "movie_genre" : "Comedy|Musical",
+        "production_years" : 1995,
+        "budget" : "$1.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d61"),
+        "id" : 89,
+        "movie_name " : "Sorceress",
+        "movie_genre" : "Action|Adventure|Fantasy",
+        "production_years" : 1995,
+        "budget" : "$1.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d62"),
+        "id" : 90,
+        "movie_name " : "Tarzan the Fearless",
+        "movie_genre" : "Action|Adventure",
+        "production_years" : 1964,
+        "budget" : "$1.59"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d79"),
+        "id" : 113,
+        "movie_name " : "I Married A Strange Person!",
+        "movie_genre" : "Animation|Comedy|Fantasy|Sci-Fi",
+        "production_years" : 2000,
+        "budget" : "$0.14"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d7d"),
+        "id" : 117,
+        "movie_name " : "Lilla Jönssonligan på styva linan",
+        "movie_genre" : "(no genres listed)",
+        "production_years" : 1999,
+        "budget" : "$0.63"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d83"),
+        "id" : 123,
+        "movie_name " : "North by Northwest",
+        "movie_genre" : "Action|Adventure|Mystery|Romance|Thriller",
+        "production_years" : 1994,
+        "budget" : "$0.61"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352db7"),
+        "id" : 175,
+        "movie_name " : "Faces of Death",
+        "movie_genre" : "Documentary|Horror",
+        "production_years" : 1996,
+        "budget" : "$1.83"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dbd"),
+        "id" : 181,
+        "movie_name " : "Tough Guys Don't Dance",
+        "movie_genre" : "Drama",
+        "production_years" : 1992,
+        "budget" : "$1.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dc2"),
+        "id" : 186,
+        "movie_name " : "Samoure",
+        "movie_genre" : "Drama",
+        "production_years" : 1989,
+        "budget" : "$0.32"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dc3"),
+        "id" : 187,
+        "movie_name " : "Free Enterprise",
+        "movie_genre" : "Comedy|Romance|Sci-Fi",
+        "production_years" : 1994,
+        "budget" : "$1.34"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dc9"),
+        "id" : 193,
+        "movie_name " : "Lost & Found",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1995,
+        "budget" : "$0.75"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dcd"),
+        "id" : 197,
+        "movie_name " : "Toy Story 3",
+        "movie_genre" : "Adventure|Animation|Children|Comedy|Fantasy|IMAX",
+        "production_years" : 2000,
+        "budget" : "$1.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dd7"),
+        "id" : 207,
+        "movie_name " : "Palindromes",
+        "movie_genre" : "Adventure|Comedy|Drama",
+        "production_years" : 1987,
+        "budget" : "$1.98"
+}
+Type "it" for more
+> db.movie.find({}, {"movie_name" : 1}).pretty()
+{ "_id" : ObjectId("6227a3a515289a4815352d09") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0a") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0b") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0c") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0d") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0e") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0f") }
+{ "_id" : ObjectId("6227a3a515289a4815352d10") }
+{ "_id" : ObjectId("6227a3a515289a4815352d11") }
+{ "_id" : ObjectId("6227a3a515289a4815352d12") }
+{ "_id" : ObjectId("6227a3a515289a4815352d13") }
+{ "_id" : ObjectId("6227a3a515289a4815352d14") }
+{ "_id" : ObjectId("6227a3a515289a4815352d15") }
+{ "_id" : ObjectId("6227a3a515289a4815352d16") }
+{ "_id" : ObjectId("6227a3a515289a4815352d17") }
+{ "_id" : ObjectId("6227a3a515289a4815352d18") }
+{ "_id" : ObjectId("6227a3a515289a4815352d19") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1a") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1b") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1c") }
+Type "it" for more
+> db.movie.find({}, {movie_name : 1}).pretty()
+{ "_id" : ObjectId("6227a3a515289a4815352d09") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0a") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0b") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0c") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0d") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0e") }
+{ "_id" : ObjectId("6227a3a515289a4815352d0f") }
+{ "_id" : ObjectId("6227a3a515289a4815352d10") }
+{ "_id" : ObjectId("6227a3a515289a4815352d11") }
+{ "_id" : ObjectId("6227a3a515289a4815352d12") }
+{ "_id" : ObjectId("6227a3a515289a4815352d13") }
+{ "_id" : ObjectId("6227a3a515289a4815352d14") }
+{ "_id" : ObjectId("6227a3a515289a4815352d15") }
+{ "_id" : ObjectId("6227a3a515289a4815352d16") }
+{ "_id" : ObjectId("6227a3a515289a4815352d17") }
+{ "_id" : ObjectId("6227a3a515289a4815352d18") }
+{ "_id" : ObjectId("6227a3a515289a4815352d19") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1a") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1b") }
+{ "_id" : ObjectId("6227a3a515289a4815352d1c") }
+Type "it" for more
+> db.movie.find({id :{$gte : 10}}, {movie_name :1, _id :0}).pretty()
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+Type "it" for more
+> db.movie.find({}).sort({production_yerar : -1}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> db.movie.find({}).sort({production_yerars : -1}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> db.movie.find({}).sort({movie_name : -1}).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d09"),
+        "id" : 1,
+        "movie_name " : "Hail the Conquering Hero",
+        "movie_genre" : "Comedy",
+        "production_years" : 1995,
+        "budget" : "$7.89"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0a"),
+        "id" : 2,
+        "movie_name " : "The Man They Could Not Hang",
+        "movie_genre" : "Crime|Horror|Sci-Fi",
+        "production_years" : 2007,
+        "budget" : "$1.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0b"),
+        "id" : 3,
+        "movie_name " : "The Little Kidnappers",
+        "movie_genre" : "Drama|Romance|War",
+        "production_years" : 2010,
+        "budget" : "$2.09"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0c"),
+        "id" : 4,
+        "movie_name " : "Englishman Who Went Up a Hill But Came Down a Mountain, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_years" : 1984,
+        "budget" : "$4.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0d"),
+        "id" : 5,
+        "movie_name " : "High School Musical 2",
+        "movie_genre" : "Comedy|Drama|Musical|Romance",
+        "production_years" : 2001,
+        "budget" : "$8.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0e"),
+        "id" : 6,
+        "movie_name " : "Clonehunter",
+        "movie_genre" : "Sci-Fi",
+        "production_years" : 1997,
+        "budget" : "$4.41"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d0f"),
+        "id" : 7,
+        "movie_name " : "Mannequin 2: On the Move",
+        "movie_genre" : "Comedy|Fantasy|Romance",
+        "production_years" : 1998,
+        "budget" : "$4.51"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d10"),
+        "id" : 8,
+        "movie_name " : "The Castle of Fu Manchu",
+        "movie_genre" : "Action|Crime|Horror",
+        "production_years" : 2005,
+        "budget" : "$9.45"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d11"),
+        "id" : 9,
+        "movie_name " : "Lupin III: First Contact (Rupan Sansei: Faasuto Kontakuto)",
+        "movie_genre" : "Action|Animation|Comedy|Crime|Drama|Mystery|Romance|Thriller",
+        "production_years" : 2008,
+        "budget" : "$8.93"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d12"),
+        "id" : 10,
+        "movie_name " : "Bikini Beach",
+        "movie_genre" : "Comedy",
+        "production_years" : 2010,
+        "budget" : "$9.07"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d13"),
+        "id" : 11,
+        "movie_name " : "Beloved Berlin Wall (Liebe Mauer)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_years" : 1996,
+        "budget" : "$2.02"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d14"),
+        "id" : 12,
+        "movie_name " : "Whitey: United States of America v. James J. Bulger",
+        "movie_genre" : "Crime|Documentary",
+        "production_years" : 2005,
+        "budget" : "$3.38"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d15"),
+        "id" : 13,
+        "movie_name " : "Get Rich or Die Tryin'",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_years" : 2002,
+        "budget" : "$2.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d16"),
+        "id" : 14,
+        "movie_name " : "Morsian yllättää",
+        "movie_genre" : "Comedy",
+        "production_years" : 1990,
+        "budget" : "$1.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d17"),
+        "id" : 15,
+        "movie_name " : "Fountain, The",
+        "movie_genre" : "Drama|Fantasy|Romance",
+        "production_years" : 1993,
+        "budget" : "$0.29"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d18"),
+        "id" : 16,
+        "movie_name " : "Rambo: First Blood Part II",
+        "movie_genre" : "Action|Adventure|Thriller",
+        "production_years" : 2006,
+        "budget" : "$9.55"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d19"),
+        "id" : 17,
+        "movie_name " : "Living Room of the Nation, The (Kansakunnan olohuone)",
+        "movie_genre" : "Documentary",
+        "production_years" : 2003,
+        "budget" : "$0.16"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1a"),
+        "id" : 18,
+        "movie_name " : "Great Escape, The",
+        "movie_genre" : "Action|Adventure|Drama|War",
+        "production_years" : 1984,
+        "budget" : "$6.86"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1b"),
+        "id" : 19,
+        "movie_name " : "National Treasure",
+        "movie_genre" : "Action|Adventure|Drama|Mystery|Thriller",
+        "production_years" : 1992,
+        "budget" : "$7.87"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d1c"),
+        "id" : 20,
+        "movie_name " : "Botany of Desire, The",
+        "movie_genre" : "Documentary",
+        "production_years" : 2002,
+        "budget" : "$1.89"
+}
+Type "it" for more
+> db.movie.find({}{id : 1, -id :0}).skip(200).limit(10).pretty()
+uncaught exception: SyntaxError: missing ) after argument list :
+@(shell):1:16
+> db.movie.find({},{id : 1, -id :0}).skip(200).limit(10).pretty()
+uncaught exception: SyntaxError: expected property name, got '-' :
+@(shell):1:26
+> db.movie.find({},{id : 1, _id :0}).skip(200).limit(10).pretty()
+{ "id" : 201 }
+{ "id" : 202 }
+{ "id" : 203 }
+{ "id" : 204 }
+{ "id" : 205 }
+{ "id" : 206 }
+{ "id" : 207 }
+{ "id" : 208 }
+{ "id" : 209 }
+{ "id" : 210 }
+> db.movie.find({},{id : 1, _id :0}).skip(10).limit(5).pretty()
+{ "id" : 11 }
+{ "id" : 12 }
+{ "id" : 13 }
+{ "id" : 14 }
+{ "id" : 15 }
+> db.movie.find({movie_genre}).skip(10).pretty()
+uncaught exception: ReferenceError: movie_genre is not defined :
+@(shell):1:16
+> db.movie.find({movie_genre:"Drama"}).skip(10).pretty()
+{
+        "_id" : ObjectId("6227a3a515289a4815352d56"),
+        "id" : 78,
+        "movie_name " : "Rising Place, The",
+        "movie_genre" : "Drama",
+        "production_years" : 2002,
+        "budget" : "$3.52"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d5e"),
+        "id" : 86,
+        "movie_name " : "Big Shot: Confessions of a Campus Bookie",
+        "movie_genre" : "Drama",
+        "production_years" : 2008,
+        "budget" : "$2.15"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d72"),
+        "id" : 106,
+        "movie_name " : "Somers Town",
+        "movie_genre" : "Drama",
+        "production_years" : 1993,
+        "budget" : "$4.99"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d73"),
+        "id" : 107,
+        "movie_name " : "Countdown to Looking Glass",
+        "movie_genre" : "Drama",
+        "production_years" : 1993,
+        "budget" : "$2.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d77"),
+        "id" : 111,
+        "movie_name " : "Joe Gould's Secret",
+        "movie_genre" : "Drama",
+        "production_years" : 2004,
+        "budget" : "$9.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d78"),
+        "id" : 112,
+        "movie_name " : "Household Saints",
+        "movie_genre" : "Drama",
+        "production_years" : 1973,
+        "budget" : "$3.54"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d80"),
+        "id" : 120,
+        "movie_name " : "Carnages (a.k.a. Carnage)",
+        "movie_genre" : "Drama",
+        "production_years" : 1998,
+        "budget" : "$9.40"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d8e"),
+        "id" : 134,
+        "movie_name " : "Shara (Sharasojyu)",
+        "movie_genre" : "Drama",
+        "production_years" : 2002,
+        "budget" : "$7.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d91"),
+        "id" : 137,
+        "movie_name " : "Hawking",
+        "movie_genre" : "Drama",
+        "production_years" : 2000,
+        "budget" : "$4.73"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352d9f"),
+        "id" : 151,
+        "movie_name " : "End of Love, The",
+        "movie_genre" : "Drama",
+        "production_years" : 2002,
+        "budget" : "$3.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352da0"),
+        "id" : 152,
+        "movie_name " : "Diggstown",
+        "movie_genre" : "Drama",
+        "production_years" : 1994,
+        "budget" : "$2.58"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352da5"),
+        "id" : 157,
+        "movie_name " : "Thirst (a.k.a. Three Strange Loves) (Törst)",
+        "movie_genre" : "Drama",
+        "production_years" : 1992,
+        "budget" : "$9.00"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352da9"),
+        "id" : 161,
+        "movie_name " : "Bachelor Party, The",
+        "movie_genre" : "Drama",
+        "production_years" : 2009,
+        "budget" : "$1.11"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dac"),
+        "id" : 164,
+        "movie_name " : "Death of a Salesman",
+        "movie_genre" : "Drama",
+        "production_years" : 2007,
+        "budget" : "$3.91"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dae"),
+        "id" : 166,
+        "movie_name " : "Broken Wings (Knafayim Shvurot)",
+        "movie_genre" : "Drama",
+        "production_years" : 2011,
+        "budget" : "$7.18"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352db3"),
+        "id" : 171,
+        "movie_name " : "Marquis",
+        "movie_genre" : "Drama",
+        "production_years" : 1995,
+        "budget" : "$8.46"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dbc"),
+        "id" : 180,
+        "movie_name " : "Oh, Sun (Soleil O)",
+        "movie_genre" : "Drama",
+        "production_years" : 1987,
+        "budget" : "$3.21"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dbd"),
+        "id" : 181,
+        "movie_name " : "Tough Guys Don't Dance",
+        "movie_genre" : "Drama",
+        "production_years" : 1992,
+        "budget" : "$1.30"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dc2"),
+        "id" : 186,
+        "movie_name " : "Samoure",
+        "movie_genre" : "Drama",
+        "production_years" : 1989,
+        "budget" : "$0.32"
+}
+{
+        "_id" : ObjectId("6227a3a515289a4815352dc6"),
+        "id" : 190,
+        "movie_name " : "Wetherby",
+        "movie_genre" : "Drama",
+        "production_years" : 1989,
+        "budget" : "$5.91"
+}
+Type "it" for more
+> db.movie.deleteMany ({id :{$lte :100},movie_genre : "Drama"})
+{ "acknowledged" : true, "deletedCount" : 12 }
+> ^C
