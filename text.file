@@ -1,0 +1,326 @@
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\RAUSHAN KUMAR> mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("490814b7-e6ab-4e66-8c22-5847cc8555a9") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-08T20:02:44.107+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+> use students
+switched to db students
+> db
+students
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+test    0.000GB
+> db
+students
+> show dbs
+admin   0.000GB
+config  0.000GB
+test    0.000GB
+>
+>
+> show collections
+> show collections
+> show createCollection("student")
+uncaught exception: SyntaxError: missing ) after argument list :
+@(shellhelp2):1:42
+> db.createCollection("student")
+{ "ok" : 1 }
+> show collections
+student
+> db.student.insert({"firstName:"Raushan", "lastName" : "Kumar", "email" : "sraushan890@gmail.com"})
+uncaught exception: SyntaxError: missing : after property id :
+@(shell):1:31
+> db.student.insert({"firstName":"Raushan", "lastName" : "Kumar", "email" : "sraushan890@gmail.com"})
+WriteResult({ "nInserted" : 1 })
+>
+>
+> db.student.insertMany([{"fistName" :"Adrash", "lastName" : "Kumar", "email" : "adrash822@gmail.com", "_ip_address" :"123.1.2.22", "Age" : "11", "gender" : "M"}, {"firstName" : "Tinku", "lastName" : "Kumar", "email" : "tinkukumar123@gmail.com", "Age" : "34", "_ip_address" : "123.5.5.12"} ])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("62277f06d98f45ccb66a6897"),
+                ObjectId("62277f06d98f45ccb66a6898")
+        ]
+}
+> show collections
+student
+> db.student.insertMany([{"fistName" :"Alok", "lastName" : "Kumar", "email" : "alokh822@gmail.com", "_ip_address" :"123.1.2.52", "Age" : "19", "gender" : "M"}, {"firstName" : "Tinku", "lastName" : "Kumar", "email" : "tinkukumar123@gmail.com", "Age" : "34", "_ip_address" : "123.5.5.12"}, {"firstname" : "ShiShupal", "lastName" :"Kumar","email" : "shishupalKuamar", "age" : "20", "gender" : "M"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("62278fa5d98f45ccb66a6899"),
+                ObjectId("62278fa5d98f45ccb66a689a"),
+                ObjectId("62278fa5d98f45ccb66a689b")
+        ]
+}
+> db.student.find({}).pretty()
+{
+        "_id" : ObjectId("6227746dd98f45ccb66a6896"),
+        "firstName" : "Raushan",
+        "lastName" : "Kumar",
+        "email" : "sraushan890@gmail.com"
+}
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6897"),
+        "fistName" : "Adrash",
+        "lastName" : "Kumar",
+        "email" : "adrash822@gmail.com",
+        "_ip_address" : "123.1.2.22",
+        "Age" : "11",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6898"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a6899"),
+        "fistName" : "Alok",
+        "lastName" : "Kumar",
+        "email" : "alokh822@gmail.com",
+        "_ip_address" : "123.1.2.52",
+        "Age" : "19",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689a"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689b"),
+        "firstname" : "ShiShupal",
+        "lastName" : "Kumar",
+        "email" : "shishupalKuamar",
+        "age" : "20",
+        "gender" : "M"
+}
+> db.student.insertMany([{"fistName" :"kran", "lastName" : "Kumar", "email" : "kran822@gmail.com", "_ip_address" :"123.1.2.53", "Age" : "29", "gender" : "M"}, {"firstName" : "Deepak", "lastName" : "Kumar", "email" : "deepakumar123@gmail.com", "Age" : "34", "_ip_address" : "123.5.5.62"}, {"firstname" : "Santosh", "lastName" :"Kumar","email" : "santoshKuamar", "age" : "18", "gender" : "M"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("622790d7d98f45ccb66a689c"),
+                ObjectId("622790d7d98f45ccb66a689d"),
+                ObjectId("622790d7d98f45ccb66a689e")
+        ]
+}
+> db.student.insertMany([{"fistName" :"chandan", "lastName" : "Kumar", "email" : "chandan822@gmail.com", "_ip_address" :"123.1.2.73", "Age" : "39", "gender" : "M"}, {"firstName" : "Sushant", "lastName" : "Kumar", "email" : "sushantkumar123@gmail.com", "Age" : "36", "_ip_address" : "123.5.5.63"}, {"firstname" : "Shidhu", "lastName" :"Kumar","email" : "shidhuKuamar", "age" : "16", "gender" : "M" "_ip_addres" : "123.1.4.45"}])
+uncaught exception: SyntaxError: missing } after property list :
+@(shell):1:395
+> db.student.insertMany([{"fistName" :"chandan", "lastName" : "Kumar", "email" : "chandan822@gmail.com", "_ip_address" :"123.1.2.73", "Age" : "39", "gender" : "M"}, {"firstName" : "Sushant", "lastName" : "Kumar", "email" : "sushantkumar123@gmail.com", "Age" : "36", "_ip_address" : "123.5.5.63"}, {"firstname" : "Shidhu", "lastName" :"Kumar","email" : "shidhuKuamar", "age" : "16", "gender" : "M", "_ip_addres" : "123.1.4.45"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("622791f2d98f45ccb66a689f"),
+                ObjectId("622791f2d98f45ccb66a68a0"),
+                ObjectId("622791f2d98f45ccb66a68a1")
+        ]
+}
+> db.student.updateMany({"firstName" : "Alok" , "firstName" : "Raushan", "firstName" : "chandan"}, {$set : {"Country" : "India"}})
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+> db.student.find({}).pretty()
+{
+        "_id" : ObjectId("6227746dd98f45ccb66a6896"),
+        "firstName" : "Raushan",
+        "lastName" : "Kumar",
+        "email" : "sraushan890@gmail.com"
+}
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6897"),
+        "fistName" : "Adrash",
+        "lastName" : "Kumar",
+        "email" : "adrash822@gmail.com",
+        "_ip_address" : "123.1.2.22",
+        "Age" : "11",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6898"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a6899"),
+        "fistName" : "Alok",
+        "lastName" : "Kumar",
+        "email" : "alokh822@gmail.com",
+        "_ip_address" : "123.1.2.52",
+        "Age" : "19",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689a"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689b"),
+        "firstname" : "ShiShupal",
+        "lastName" : "Kumar",
+        "email" : "shishupalKuamar",
+        "age" : "20",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("622790d7d98f45ccb66a689c"),
+        "fistName" : "kran",
+        "lastName" : "Kumar",
+        "email" : "kran822@gmail.com",
+        "_ip_address" : "123.1.2.53",
+        "Age" : "29",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("622790d7d98f45ccb66a689d"),
+        "firstName" : "Deepak",
+        "lastName" : "Kumar",
+        "email" : "deepakumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.62"
+}
+{
+        "_id" : ObjectId("622790d7d98f45ccb66a689e"),
+        "firstname" : "Santosh",
+        "lastName" : "Kumar",
+        "email" : "santoshKuamar",
+        "age" : "18",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("622791f2d98f45ccb66a689f"),
+        "fistName" : "chandan",
+        "lastName" : "Kumar",
+        "email" : "chandan822@gmail.com",
+        "_ip_address" : "123.1.2.73",
+        "Age" : "39",
+        "gender" : "M"
+}
+{
+        "_id" : ObjectId("622791f2d98f45ccb66a68a0"),
+        "firstName" : "Sushant",
+        "lastName" : "Kumar",
+        "email" : "sushantkumar123@gmail.com",
+        "Age" : "36",
+        "_ip_address" : "123.5.5.63"
+}
+{
+        "_id" : ObjectId("622791f2d98f45ccb66a68a1"),
+        "firstname" : "Shidhu",
+        "lastName" : "Kumar",
+        "email" : "shidhuKuamar",
+        "age" : "16",
+        "gender" : "M",
+        "_ip_addres" : "123.1.4.45"
+}
+> db.student.find({"Age" : 34}).pretty()
+> db.student.find({"Age" : "34"}).pretty()
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6898"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689a"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12"
+}
+{
+        "_id" : ObjectId("622790d7d98f45ccb66a689d"),
+        "firstName" : "Deepak",
+        "lastName" : "Kumar",
+        "email" : "deepakumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.62"
+}
+> db.student.updateMany({"Age" : "34"}, {$set : {"Country" : "India"}})
+{ "acknowledged" : true, "matchedCount" : 3, "modifiedCount" : 3 }
+> db.student.find({"Age" : "34"}).pretty()
+{
+        "_id" : ObjectId("62277f06d98f45ccb66a6898"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12",
+        "Country" : "India"
+}
+{
+        "_id" : ObjectId("62278fa5d98f45ccb66a689a"),
+        "firstName" : "Tinku",
+        "lastName" : "Kumar",
+        "email" : "tinkukumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.12",
+        "Country" : "India"
+}
+{
+        "_id" : ObjectId("622790d7d98f45ccb66a689d"),
+        "firstName" : "Deepak",
+        "lastName" : "Kumar",
+        "email" : "deepakumar123@gmail.com",
+        "Age" : "34",
+        "_ip_address" : "123.5.5.62",
+        "Country" : "India"
+}
+> db.student.removOne({"Age" : "34"})
+uncaught exception: TypeError: db.student.removOne is not a function :
+@(shell):1:1
+> db.student.removeOne({"Age" : "34"})
+uncaught exception: TypeError: db.student.removeOne is not a function :
+@(shell):1:1
+> db.student.remove({"firstNmae" : "Tinku"})
+WriteResult({ "nRemoved" : 0 })
+> db.student.remove({"firstName" : "Tinku"})
+WriteResult({ "nRemoved" : 2 })
+> db.student.remove({"firstName" : "Deepak"})
+WriteResult({ "nRemoved" : 1 })
