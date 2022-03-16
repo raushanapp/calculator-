@@ -1,17 +1,14 @@
+const app =  require("./index");
 
-const app = require("./index");
+const connect = require("./config/db");
 
-const connect = require("./configs/db");
-
-
-app.listen(4000,async () =>{
+app.listen(3222,async () =>{
 
     try{
         await connect();
+        console.log("Listening on port 3222...")
 
-    }catch(e){
-        console.log("something went wrong to the server",e)
+    }catch(error){
+        return console.error(error.message);
     }
-    console.log("Listening on port 4000................................");
-
 })

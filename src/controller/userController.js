@@ -1,62 +1,39 @@
-
 const express = require("express");
-
-const {body, validationResult} = require("express-validator");
 
 const User = require("../models/userModel");
 
+//  middleware 
+
+const uploadFile = require("../middleWare/uploadFile")
+
 const router = express.Router();
 
-
-router.post("/",body("firstName")
-  .trim()
-  .not()
-  .isEmpty()
-  .withMessage("Name should be required"),
-  body("email")
-  .isEmail()
-  .custom(async (value)=>{
-
-    const user = await User.findOne({ email: value});
-    if (user){
-        throw new  Error ("email is already in use");
-    }
-    return true;
-  }),
-  body("age")
-  .not()
-  .isEmpty()
-  .withMessage("Age can not empty")
-  .isNumeric()
-  .withMessage("number should 1 to 100")
-  .custom((val)=>{
-      if (val<1||val>100){
-          throw new Error("please provid the correct age")
-       }
-       return true
-  }),
-  body("pincode")
-  .not()
-  .isEmpty()
-  .isNumeric()
-  .isLength({min:6, max:6})
-  .withMessage("please enter correct pincode")
-  ,async(req,res) =>{
+router.get("", async(req,res)=>{
 
     try{
-        const errors = validationResult(req);
+        const users = await User.find().lean().exec();
 
-        if (!errors.isEmpty()){
-            return res.status(404).send({errors:errors.array()});
-        }
+        return res.status(201).send({users :users})
 
-
-        const user = await User.create(req.body);
-        return res.status(201).send({user:user});
-
-    }catch(err){
-        return res.status(404).send({message:err.message});
+    }catch(error){
+        return res.status(404).send({message: error.message})
     }
 });
+
+router.post("",uploadFile.single("profilePic"),async (req,res)=>{
+
+    try{
+        const user = await User.create({
+            firstName : req.body.firstName,
+            lastName : req.body.lastName,
+            profilePic : req.file.path,
+        })
+
+        return res.status(200).send({user:user});
+
+    }catch(error){
+        return res.status(500).send({message: error.message});
+    }
+})
 
 module.exports = router;
